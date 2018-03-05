@@ -5,6 +5,8 @@ body {
 }
 
 header {
+  display: flex;
+  align-content: center;
   width: 100%;
   background-color: #212123;
 }
