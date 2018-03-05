@@ -1,14 +1,8 @@
-body {
-  display: flex;
-  align-content: center;
-  margin: 20px;
-}
 
 header {
-  display: flex;
-  align-content: center;
   width: 100%;
   background-color: #212123;
+  color: #ffffff;
 }
 
 .logo {
