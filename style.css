@@ -1,36 +1,36 @@
+body {
+  display: flex;
+}
+
+.row {
+  width: 100%;
+}
 
 header {
   width: 100%;
   background-color: #212123;
-  display: flex;
-  align-content: center;
-}
-
-header h1, header h2 {
   color: #ffffff;
   text-align: center;
+  padding-top: 50px;
 }
 
-body {
-  margin: 20px;
+h1 {
+  padding-bottom: 50px;
+  border-top: solid 2px #ffffff;
 }
 
-h1,h2 {
-  color: #ffffff;
-}
-
-.logo {
+header .logo {
   width: 20%;
+  padding-bottom: 50px;
 }
 
 .logo2 {
   height: 200px;
-  display: flex;
-  align-content: center;
 }
 
 .events {
-  padding: 50px;
+  padding: 100px;
+  width: 50%;
 }
 
 p {
