@@ -1,8 +1,5 @@
-body {
-  display: flex;
-}
-
 .row {
+  display: flex;
   width: 100%;
 }
 
@@ -10,27 +7,37 @@ header {
   width: 100%;
   background-color: #212123;
   color: #ffffff;
-  text-align: center;
   padding-top: 50px;
+}
+
+.center-header {
+  text-align: center;
 }
 
 h1 {
   padding-bottom: 50px;
+  padding-top: 20px;
   border-top: solid 2px #ffffff;
 }
 
+h2 {
+  Padding-bottom: 20px;
+}
+
 header .logo {
-  width: 20%;
+  width: 300px;
   padding-bottom: 50px;
 }
 
 .logo2 {
-  height: 200px;
+  height: 150px;
+  padding-bottom: 50px;
 }
 
 .events {
-  padding: 100px;
+  padding: 50px;
   width: 50%;
+  text-align: center;
 }
 
 p {
