@@ -1,5 +1,6 @@
 .container {
   box-shadow: 0px 5px 20px black;
+  margin-bottom: 50px;
 }
 
 header {
@@ -7,6 +8,11 @@ header {
   color: #ffffff;
   padding: 50px;
   text-align: center;
+}
+
+.center-header {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
