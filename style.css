@@ -25,6 +25,14 @@ h2 {
   Padding-bottom: 20px;
 }
 
+h2 a {
+  color: #999999;
+}
+
+h2 a:hover {
+  color: #666666;
+}
+
 header .logo {
   width: 300px;
   padding-bottom: 50px;
@@ -33,6 +41,12 @@ header .logo {
 .logo2 {
   height: 150px;
   padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo2:hover {
+  filter: grayscale();
 }
 
 .events {
